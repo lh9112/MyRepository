@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:id="@+id/Naver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:id="@+id/Google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:id="@+id/Kakao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:id="@+id/Facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:id="@+id/Insta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

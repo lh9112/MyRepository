@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mLayout"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/menuBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/menu"
+            android:scaleType="fitXY"
+            android:background="#FFFFFF"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/yoe"
+            android:background="#FFFFFF"/>
+    </LinearLayout>
+
+    <Gallery
+        android:id="@+id/MainGallery"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/GameReleaseBtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/button1"
+            android:scaleType="centerInside"
+            android:background="#FFFFFF"/>
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/GameEventBtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/button2"
+            android:scaleType="centerInside"
+            android:background="#FFFFFF"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:gravity="center">
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/GameSaleBtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/button3"
+            android:scaleType="centerInside"
+            android:background="#FFFFFF"/>
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/GameSearchBtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/button4"
+            android:scaleType="centerInside"
+            android:background="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>
